@@ -1,7 +1,8 @@
 # foolmoon.rocks
 
-> Official website of Fool Moon, a Dutch rock band
+> Official website of Fool Moon, a Dutch rock band. 
 I created this website w/ Vue.js to learn the basics and explore Vue.js and the Nuxt.js framework. Work in progress.
+[www.foolmoon.rocks](http://www.foolmoon.rocks)
 
 ## Build Setup
 

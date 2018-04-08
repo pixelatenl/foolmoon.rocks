@@ -1,0 +1,19 @@
+.columns {
+    margin: auto;
+    flex: 1 0 auto;
+    @media (min-width: $large-screen) {
+        display: flex;
+        max-width: 1600px;
+        width: 100%;
+        align-content: center;
+    }
+}
+
+.column {
+    @media (min-width: $large-screen) {
+        padding: 0 10px;
+        flex-grow: 1;
+        flex-basis: 0;
+        align-content: center;
+    }
+}

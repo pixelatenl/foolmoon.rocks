@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    background: url(~/assets/images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+        -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $color-white;
+    font-size: $font-size-200;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: $line-height-100;
+}
+
+p,
+li,
+blockquote {
+    font-size: $font-size-200;
+}
+
+strong,
+b {
+    font-weight: 600;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+small {
+    font-size: $font-size-90;
+}
+
+p {
+    margin: 1.5em 0;
+}

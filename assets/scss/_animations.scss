@@ -1,0 +1,21 @@
+// Fadein
+//animation: fadeIn 1.0s ease-in;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Fadeout
+// animation: fadeOut 1.0s ease-out;
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

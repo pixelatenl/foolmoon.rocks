@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Heavenly Rock Fest",
+    "date": "2018-05-10",
+    "time": "13:00 - 19:00",
+    "venue": "Scattando",
+    "city": "Geertruidenberg",
+    "url": "https://www.scattando.nl/heavenly-rock-fest.html",
+    "description": ""
+  },
+  {
+    "title": "Cafe Oud Brabant",
+    "date": "2017-01-25",
+    "time": "22:00",
+    "venue": "Cafe Oud Brabant",
+    "city": "Oosterhout",
+    "url": "http://cafeoudbrabant.nl/",
+    "description": ""
+  },
+  {
+    "title": "Cafe de Speeltuin and POB",
+    "date": "2017-09-2017",
+    "time": "22:00 - 01:00",
+    "venue": "Cafe de Speeltuin",
+    "city": "Breda",
+    "url":
+      "https://www.facebook.com/events/1963262013895989/?acontext=%7B%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22page%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22page_upcoming_events_card%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%2C%22has_source%22%3Atrue%7D",
+    "description": ""
+  },
+  {
+    "title": "Besloten",
+    "date": "2017-07-08",
+    "time": "",
+    "venue": "Besloten",
+    "city": "Tilburg",
+    "url": "",
+    "description": ""
+  }
+]

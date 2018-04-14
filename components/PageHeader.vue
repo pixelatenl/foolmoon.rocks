@@ -4,7 +4,9 @@
     <nav class="navigation" role="navigation">
       <ul class="navigation__list">
         <li class="navigation__item" v-for="link in navigation" v-bind:key="link.href">
-          <a class="navigation__link" :href="link.href">{{ link.title }}</a>
+            <nuxt-link class="navigation__link" :to="link.href">
+                {{ link.title }}
+            </nuxt-link>
         </li>
       </ul>
     </nav>
@@ -70,6 +72,9 @@ export default {
     letter-spacing: 10px;
     line-height: 50px;
     cursor: pointer;
-}
 
+    &.nuxt-link-exact-active {
+        border-bottom: 2px solid $color-red;
+    }
+}
 </style>

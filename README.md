@@ -32,4 +32,4 @@ $ npm run generate
 * [ ] Design: Design live show page
 * [ ] Create dynamic Live shows component
 * [ ] Create Instagram feed in media view
-* [ ] Add active states to the navigation items
+* [x] Add active states to the navigation items

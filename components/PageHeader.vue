@@ -72,9 +72,9 @@ export default {
     letter-spacing: 10px;
     line-height: 50px;
     cursor: pointer;
-
-    &.nuxt-link-exact-active {
-        border-bottom: 2px solid $color-red;
-    }
+    text-indent: 10px //NOTE Align center adjustment caused by the letter-spacing
+}
+.navigation__link.nuxt-link-exact-active {
+    border-bottom: 2px solid $color-red; //NOTE Active state
 }
 </style>

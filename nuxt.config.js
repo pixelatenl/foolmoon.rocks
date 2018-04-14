@@ -39,8 +39,10 @@ module.exports = {
   /*
   ** Plugins
   */
+
  plugins: [
-  { src: '~plugins/ga.js', ssr: false }
+  { src: '~plugins/ga.js', ssr: false },
+  '~plugins/filters.js'
   ],
   /*
   ** Build configuration

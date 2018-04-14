@@ -54,19 +54,25 @@ export default {
 }
 
 .navigation__item {
-    margin: 0 10px;
     @media (max-width: $small-screen) {
         display: inline-block;
+        margin: 0 5px;
     }
     @media (min-width: $small-screen) {
+        margin: 0 10px;
         height: 50px;
         flex: 1 0 auto;
     }
 }
 
 .navigation__link {
+    @media (max-width: $small-screen) {
+        padding: 0;
+    }
+    @media (min-width: $small-screen) {
+        padding: 0 10px;
+    }
     display: inline-block;
-    padding: 0 10px;
     color: $color-white;
     text-decoration: none;
     letter-spacing: 10px;

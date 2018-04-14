@@ -8,7 +8,7 @@
       <div class="block__content">
           <div class="show-list">
             <ul class="show-list__list">
-              <li v-for="(show, index) in shows" :key="index" class="show-list__item">
+              <li v-for="(show, index) in shows" :key="index" class="show-list__item" v-bind:class="{'is-past': isPastShow(show.date)}">
                 <a :href="show.url" class="show-list__item-link">
                   <span class="show-list__item-date">{{show.date | date}}</span>
                   <span class="show-list__item-title">{{show.title}} - {{show.venue}}</span>
@@ -27,6 +27,15 @@
   export default {
     data () {
       return { shows }
+    },
+    methods: {
+      isPastShow(date) {
+      const showDate = new Date(date);
+      const yesterday = new Date(new Date().setDate(new Date().getDate()-1));
+      if (showDate < yesterday) {
+        return true;
+        }
+      }
     }
   }
 </script>
@@ -39,6 +48,9 @@
 .show-list__item {
     padding: 10px 0;
     border-top: 1px solid rgba($color-white, 0.25);
+    &.is-past {
+      text-decoration: line-through;
+    }
 }
 .show-list__item-link {
     color: $color-white;

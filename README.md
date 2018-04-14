@@ -29,7 +29,7 @@ $ npm run generate
 * [ ] Design: Add music media icons and shop/streaming links
 * [ ] Design: Design a footer
 * [ ] Design: Design contact page
-* [ ] Design: Design live show page
+* [x] Design: Design live show page
 * [ ] Create dynamic Live shows component
 * [ ] Create Instagram feed in media view
 * [x] Add active states to the navigation items

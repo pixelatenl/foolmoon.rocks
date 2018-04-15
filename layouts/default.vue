@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="cinematic"></div>
     <page-header :navigation="navigation"/>
     <div class="container">
         <nuxt/>

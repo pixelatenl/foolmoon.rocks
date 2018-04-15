@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background: url(~/assets/images/background.jpg) no-repeat center center fixed;
+    background: $color-black url(~/assets/images/background.jpg) no-repeat center center fixed;
     background-size: cover;
         -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -21,6 +21,17 @@ body {
     font-size: $font-size-200;
     font-family: 'Nunito Sans', sans-serif;
     line-height: $line-height-100;
+}
+
+.cinematic {
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background: $color-black;
+    background: url(~/assets/images/background-cinematic.png) no-repeat center center fixed;
+    background-size: cover;
+    animation: animatedBackground 4s linear infinite;
 }
 
 p,
@@ -45,4 +56,16 @@ small {
 
 p {
     margin: 1.5em 0;
+}
+
+@keyframes animatedBackground {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

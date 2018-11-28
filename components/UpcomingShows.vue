@@ -4,7 +4,7 @@
         <a href="/live" class="upcoming-shows__link">Upcoming shows</a>
       </div>
        <div class="upcoming-shows__item">
-           <a href="/live" class="upcoming-shows__link upcoming-shows__link--90">2018-05-10 Heavenly Rock Fest</a>
+           <a href="/live" class="upcoming-shows__link upcoming-shows__link--90">2018-12-22 Christmas Special in Cafe Oud Brabant</a>
        </div>
   </div>
 </template>

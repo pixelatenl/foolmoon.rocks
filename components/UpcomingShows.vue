@@ -1,10 +1,10 @@
 <template>
   <div class="upcoming-shows">
       <div class="upcoming-shows__item">
-        <a href="/live" class="upcoming-shows__link">Upcoming shows</a>
+        <a href="/live" class="upcoming-shows__link">No Upcoming shows</a>
       </div>
        <div class="upcoming-shows__item">
-           <a href="/live" class="upcoming-shows__link upcoming-shows__link--90">2018-12-22 Christmas Special in Cafe Oud Brabant</a>
+           <a href="/live" class="upcoming-shows__link upcoming-shows__link--90">Stay tuned...</a>
        </div>
   </div>
 </template>

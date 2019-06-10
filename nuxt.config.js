@@ -41,9 +41,11 @@ module.exports = {
   */
 
  plugins: [
+  { src: '~/plugins/vue-instagram', ssr: false },
   { src: '~plugins/ga.js', ssr: false },
   '~plugins/filters.js'
   ],
+
   /*
   ** Build configuration
   */

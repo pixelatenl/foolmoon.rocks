@@ -69,10 +69,36 @@
                <h1 class="block__title">Photos</h1>
             </header>
             <div class="block__content content">
-              <p>Coming soon</p>
+            <template>
+               <vue-instagram :token="token" :count="12" mediaType="image">
+                  <template slot="feeds" slot-scope="props">
+                     <a :href="props.feed.link" target="_blank">
+                        <img :src="props.feed.images.standard_resolution.url" class="insta-image" alt="Fool Moon on Instagram">
+                     </a>
+                  </template>
+                  <template slot="error" slot-scope="props">
+                     <div class="fancy-alert"> {{ props.error.error_message }} </div>
+                  </template>
+               </vue-instagram>
+            </template>
             </div>
          </section>
       </div>
    </div>
 </template>
 
+<script>
+
+  export default {
+    data () {
+      return {
+         token: '2058849712.daca3f4.ea4bc96344ac4ae78c54ce178523fd66'
+      }
+    }
+  }
+</script>
+<style lang="scss" scoped>
+.insta-image {
+    margin-bottom: 1em;
+}
+</style>

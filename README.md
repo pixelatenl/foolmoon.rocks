@@ -31,5 +31,5 @@ $ npm run generate
 * [ ] Design: Design contact page
 * [x] Design: Design live show page
 * [ ] Create dynamic Live shows component
-* [ ] Create Instagram feed in media view
+* [x] Create Instagram feed in media view
 * [x] Add active states to the navigation items

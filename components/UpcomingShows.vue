@@ -1,10 +1,10 @@
 <template>
   <div class="upcoming-shows">
       <div class="upcoming-shows__item">
-        <a href="/live" class="upcoming-shows__link">No Upcoming shows</a>
+        <a href="/live" class="upcoming-shows__link">Upcoming shows</a>
       </div>
        <div class="upcoming-shows__item">
-           <a href="/live" class="upcoming-shows__link upcoming-shows__link--90">Stay tuned...</a>
+           <a href="/live" class="upcoming-shows__link upcoming-shows__link--90">No upcoming shows....stay tuned!</a>
        </div>
   </div>
 </template>

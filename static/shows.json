@@ -1,5 +1,23 @@
 [
   {
+    "title": "Parkfeest 2020",
+    "date": "2020-06-06",
+    "time": "20:00",
+    "venue": "live.parkfeest.nl",
+    "city": "Oosterhout",
+    "url": "http://live.parkfeest.nl",
+    "description": ""
+  },
+  {
+      "title": "T-Strijd",
+      "date": "2020-02-08",
+      "time": "21:00",
+      "venue": "Gebouw-T",
+      "city": "Bergen op Zoom",
+      "url": "https://gebouw-t.nl/evenementen/t-strijd-voorronde-2/",
+      "description": ""
+  },
+  {
       "title": "Woodstock Revisited (50 jaar)",
       "date": "2019-08-18",
       "time": "15:00",

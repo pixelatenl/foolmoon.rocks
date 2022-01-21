@@ -1,8 +1,11 @@
-module.exports = {
-  loading: false,
-  /*
-  ** Headers of the page
-  */
+export default {
+  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+  ssr: false,
+
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'www.foolmoon.rocks',
     meta: [
@@ -21,47 +24,38 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700' }
     ]
   },
-  /*
-  ** Global CSS
-  */
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/scss/main.scss'],
-  /*
-  ** Nuxt Sass Resources
-  */
+
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  plugins: [
+    { src: '~/plugins/vue-instagram', ssr: false },
+    { src: '~plugins/ga.js', ssr: false },
+    '~plugins/filters.js'
+    ],
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: true,
+
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+  buildModules: [
+    // https://go.nuxtjs.dev/eslint
+    '@nuxtjs/eslint-module',
+  ],
+
+  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-
-    // or array of paths
-    ['nuxt-sass-resources-loader', [
-        '@/assets/scss/_variables.scss'
-    ]]
-
-  ],
-  /*
-  ** Plugins
-  */
-
- plugins: [
-  { src: '~/plugins/vue-instagram', ssr: false },
-  { src: '~plugins/ga.js', ssr: false },
-  '~plugins/filters.js'
+    // https://go.nuxtjs.dev/axios
+    '@nuxtjs/axios',
   ],
 
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** Run ESLint on save
-    */
-    extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  }
-};
+  // Axios module configuration: https://go.nuxtjs.dev/config-axios
+  axios: {
+    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+    baseURL: '/',
+  },
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {},
+}

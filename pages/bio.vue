@@ -12,7 +12,7 @@
               <p>In the summer of 2016 Fool Moon won the band contest "open stage Helvoirts weekend". The reward, recording time in Studio Cube, has been used to record new work.</p>
               <p>Earlier, the band released a solid EP titled 'Waiting'. Several songs were played on the alternative radio station Kink FM (now Radio Penguin). It led to participation in a contest in which listeners were allowed to choose their favorite songs from over 500 bands. Fool Moon finished 7th. The band was asked to perform at the holy mainstage of pop temple Paradiso in 2011.</p>
               <p>The Fool Moon music has a unique sound, open, funky, often firm, always room for guitar solos. Singer Orlando is known for his intense and exciting style. The band likes to make a solid no-nonsense sound in rock venues, but also acoustically they managed to put away their own atmosphere, especially at full moon.</p>
-              <p>Fool Moon is formed by singer Orlando, guitarist Wouter Stinesen, bassist David Bull and drummer Thijs Winthagen</p>
+              <p>Fool Moon is formed by singer Orlando, guitarist Wouter, bassist David and drummer Thijs.</p>
               <p><img src="~/assets/images/foolmoon-paradiso.jpg" alt="Fool Moon performing at Paradiso Amsterdam"></p>
           </div>
         </section>

@@ -27,14 +27,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.container {
-  @media (max-width: $small-screen) {
-    padding: 50px 10px 20px;
-  }
-  @media (min-width: $small-screen) {
-    padding-top: 90px;
-  }
-}
-</style>

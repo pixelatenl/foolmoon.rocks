@@ -10,12 +10,9 @@
                 <p>Download a <a href="http://www.foolmoon.rocks/downloads/presskit.zip">“press kit” here</a>. (Contains NL + EN
                     bio, HQ press photos, CD reviews and articles)</p>
                 <p><a href="http://www.foolmoon.rocks/downloads/stageplan-foolmoon.pdf">Download stageplan (technical rider)</a></p>
-                <p><a href="http://www.foolmoon.rocks/downloads/Fool_Moon_Press_Release.pdf">Download "Little do we know" press release</a></p>
-                <p>Article (NL) about our show in "Paradiso" <a href="http://www.foolmoon.rocks/downloads/artikel-foolmoon-paradiso.pdf">Download PDF</a></p>
+
                 <h2>Social Fool Moon</h2>
                 <ul>
-                    <li><a href="https://www.facebook.com/foolmoonmusic">Facebook</a></li>
-                    <li><a href="https://www.twitter.com/foolmoonmusic">Twitter</a></li>
                     <li><a href="https://www.instagram.com/foolmoonmusic">Instagram</a></li>
                 </ul>
                 <h2>Links</h2>

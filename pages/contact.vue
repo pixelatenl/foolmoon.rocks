@@ -7,8 +7,8 @@
             </header>
             <div class="block__content content">
                 <p>For more information, please contact us by email: <a href="mailto:info@foolmoon.rocks">info@foolmoon.rocks</a></p>
-                <p>Download a <a href="http://www.foolmoon.rocks/downloads/presskit.zip">“press kit” here</a>. (Contains NL + EN
-                    bio, HQ press photos, CD reviews and articles)</p>
+                <!-- <p>Download a <a href="http://www.foolmoon.rocks/downloads/presskit.zip">“press kit” here</a>. (Contains NL + EN
+                    bio, HQ press photos, CD reviews and articles)</p> -->
                 <p><a href="http://www.foolmoon.rocks/downloads/stageplan-foolmoon.pdf">Download stageplan (technical rider)</a></p>
 
                 <h2>Social Fool Moon</h2>

@@ -37,12 +37,18 @@
                <h1 class="block__title">Video</h1>
             </header>
             <div class="block__content content">
-               <p>Currently not available, please update endpoint</p>
-               <!-- <p>"Lady Underwater" Single Promo</p>
-               <iframe width="100%" height="315" src="https://www.youtube.com/embed/OwttHj5g2mA" frameborder="0"></iframe>
+               <!-- <p>Currently not available, please update endpoint</p> -->
+               <p>"Honey I Know" Fool Moon at Parkfeest 2020</p>
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/_seiDx9z-DE?si=Ilm7WYD7rP_cwxkl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <hr>
+               <p>"Jaz Town Lazy" Fool Moon at Parkfeest 2020</p>
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/fxRn9TIm3vY?si=jndpl-2ZmAax9S4d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <hr>
+               <p>"Jaz Town Lazy" at Gebouw-T 2020</p>
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/ueLMTlIXch4?si=0l1BvEBtApBI3-GT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                <hr>
                <p>"Honey I know" leader intro for "De Ridder" S04E01</p>
-               <iframe width="100%" height="315" src="https://www.youtube.com/embed/DXhw-RnymfY" frameborder="0"></iframe>
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/fr3UL5tly6k?si=7FyRdwfteV-_r9pp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                <hr>
                <p>Cafe De Speeltuin Breda (Friday on the rocks) 22-09-2017 </p>
                <iframe width="100%" height="315" src="https://www.youtube.com/embed/s8kyiyCoEuI" frameborder="0"></iframe>
@@ -58,9 +64,6 @@
                <hr>
                <p>Little do we know live @ Cafe Oud Brabant </p>
                <iframe width="100%" height="315" src="https://www.youtube.com/embed/K3cCXJSDrUE" frameborder="0"></iframe>
-               <hr>
-               <p>A quip from Tycho in Minecraft-style. Jump burning man!! </p>
-               <iframe width="100%" height="315" src="https://www.youtube.com/embed/Eip0X2Zb7VU" frameborder="0"></iframe> -->
             </div>
          </section>
       </div>
@@ -70,7 +73,7 @@
                <h1 class="block__title">Photos</h1>
             </header>
             <div class="block__content content">
-               <p>Currently not available, please update endpoint</p>
+               <p><a href="https://www.instagram.com/foolmoonmusic">Visit Instagram</a></p>
             <!-- <template>
                <vue-instagram :token="token" :count="12" mediaType="image">
                   <template slot="feeds" slot-scope="props">

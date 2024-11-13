@@ -8,10 +8,10 @@
             <div class="block__content content">
                <!-- <p>Download our music</p>
                 <ul>
-                    <li><a href="http://www.foolmoon.rocks/downloads/Fool Moon - Lady Under Water - Single - 256kbps.mp3.zip">Single - Lady Underwater (MP3)</a></li>
-                    <li><a href="http://www.foolmoon.rocks/downloads/Fool Moon - Honey I Know - Single -  256kbps.mp3.zip">Single - Honey I Know (MP3)</a></li>
-                    <li><a href="http://www.foolmoon.rocks/downloads/FoolMoonLittleDoWeKnow.zip">Album - Little Do We Know (MP3)</a></li>
-                    <li><a href="http://www.foolmoon.rocks/downloads/FoolMoonLittleDoWeKnow-wav.zip">Album - Little Do We Know (WAV)</a></li>
+                    <li><a href="https://www.foolmoon.rocks/downloads/Fool Moon - Lady Under Water - Single - 256kbps.mp3.zip">Single - Lady Underwater (MP3)</a></li>
+                    <li><a href="https://www.foolmoon.rocks/downloads/Fool Moon - Honey I Know - Single -  256kbps.mp3.zip">Single - Honey I Know (MP3)</a></li>
+                    <li><a href="https://www.foolmoon.rocks/downloads/FoolMoonLittleDoWeKnow.zip">Album - Little Do We Know (MP3)</a></li>
+                    <li><a href="httsp://www.foolmoon.rocks/downloads/FoolMoonLittleDoWeKnow-wav.zip">Album - Little Do We Know (WAV)</a></li>
                 </ul>
                <hr> -->
                <p><a href="https://open.spotify.com/album/6ZZmrCKO5JsFvRvhAiZmUc"><img src="~/assets/images/covers/cd-cover-ladyunderwater-hd.jpg" alt="Lady Underwater by Fool Moon"/></a></p>
@@ -91,12 +91,3 @@
       </div>
    </div>
 </template>
-<script>
-//   export default { 
-//     data () {
-//       return {
-//          token: '2058849712.daca3f4.ea4bc96344ac4ae78c54ce178523fd66'
-//       }
-//     }
-//   } 
-</script> 

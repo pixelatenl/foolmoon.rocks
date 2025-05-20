@@ -8,8 +8,8 @@
 
 .logo__title {
     position: absolute;
-    top: 86px;
-    left: 25px;
+    top: 42px;
+    left: 42px;
     z-index: 600;
     color: $color-white;
     text-transform: uppercase;
@@ -56,12 +56,14 @@
     border-top-right-radius: calc($logo-size * 2);
     border-bottom-right-radius: calc($logo-size * 2);
     background-color: $color-red;
+    opacity: 80%;
 }
 .logo__circle--2 {
     z-index: 300;
     width: calc($logo-size / -2);
     border-radius: calc($logo-size * 2);
     background-color: $color-black;
+    opacity: 80%;
 }
 .logo__circle--3 {
     left: -40px;

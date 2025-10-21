@@ -74,18 +74,7 @@
             </header>
             <div class="block__content content">
                <p><a href="https://www.instagram.com/foolmoonmusic">Visit Instagram</a></p>
-            <!-- <template>
-               <vue-instagram :token="token" :count="12" mediaType="image">
-                  <template slot="feeds" slot-scope="props">
-                     <a :href="props.feed.link" target="_blank">
-                        <img :src="props.feed.images.standard_resolution.url" class="insta-image" alt="Fool Moon on Instagram">
-                     </a>
-                  </template>
-                  <template slot="error" slot-scope="props">
-                     <div class="fancy-alert"> {{ props.error.error_message }} </div>
-                  </template>
-               </vue-instagram>
-            </template> -->
+      
             </div>
          </section>
       </div>

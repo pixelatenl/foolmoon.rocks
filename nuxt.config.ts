@@ -2,6 +2,8 @@ export default defineNuxtConfig({
   // Static hosting: SPA rendered client-side, output via `nuxt generate`
   ssr: false,
 
+  compatibilityDate: "2026-10-21",
+
   devtools: { enabled: false },
 
   modules: ["@nuxt/eslint"],

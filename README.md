@@ -1,68 +1,69 @@
 # fool-moon-website
 
+Official website of Fool Moon, a Dutch rock band (https://www.foolmoon.rocks).
+
+Built with Nuxt 4 (Vue 3, Vite) as a single-page application (`ssr: false`),
+statically generated and uploaded via FTP to an Apache host.
+
 ## Build Setup
 
 ```bash
 # install dependencies
-$ yarn install
+$ npm install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ npm run dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+# generate the static site into .output/public
+$ npm run generate
 
-# generate static project
-$ yarn generate
+# serve the generated site locally (simulates the Apache host)
+$ npx serve .output/public
+
+# lint
+$ npm run lint
+
+# lint and auto-fix
+$ npm run lint:fix
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Directory structure
 
-## Special Directories
+- `app/` – application code (`app.vue`, `pages/`, `components/`, `layouts/`, `assets/`)
+- `public/` – files served at the site root (favicons, `site.webmanifest`, `browserconfig.xml`, `.htaccess`, `shows.json`)
+- `app/assets/scss/` – global styles, compiled from `main.scss` (Sass module system, `@use`)
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## Editing the show list
 
-### `assets`
+The gigs on the Live page live in `public/shows.json`. Add or edit a show by
+editing that file (plain JSON, no CMS), then run `npm run generate` and upload
+`.output/public/`.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+## Deployment
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+- Run `npm run generate`, then upload the contents of `.output/public/` to the
+  web server.
+- `public/.htaccess` ships with the generated site: it forces HTTPS, provides
+  the SPA fallback (so deep links like `/live` and `/bio` do not 404 on refresh),
+  sets security headers, enables compression and configures caching.
+- The local `downloads/` folder (press kits, riders) is git-ignored and must
+  never be committed; it is uploaded to the server separately.
 
-### `components`
+## Analytics
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+The old Universal Analytics (UA-2100087-22) plugin was removed: Universal
+Analytics was shut down by Google in 2023. If analytics are wanted again, add a
+GA4 script tag (for example via Nuxt's `useHead` or the `@nuxt/scripts`
+module).
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+## Follow-up (not configured)
 
-### `layouts`
+A Content-Security-Policy header is deliberately not set: the Media page embeds
+YouTube iframes, and a half-configured CSP would break the site. If CSP is ever
+added, it must allow `frame-src https://www.youtube.com`, the Google Fonts
+stylesheet, and Vite's inline bootstrapping (or use hash/nonce directives).
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+## Domain verification
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+`public/8373BCD674D9DADFD70A0C73CF2843EF.txt` is a Sectigo domain-verification
+file and must stay in the site root.

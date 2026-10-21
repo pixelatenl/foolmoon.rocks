@@ -1,11 +1,20 @@
 [
+    {
+    "title": "Fool Moon - Gods of Grunge",
+    "date": "2026-04-5",
+    "time": "15.30",
+    "venue": "Café Lievense",
+    "city": "Breda",
+    "url": "https://cafelievense.nl/pobparadegodsofgrunge/",
+    "description": ""
+  },
   {
     "title": "No Zero and Fool Moon",
     "date": "2024-12-15",
     "time": "15:00",
     "venue": "Cafe Oud Brabant",
     "city": "Oosterhout",
-    "url": "http://cafeoudbrabant.nl/",
+    "url": "https://cafeoudbrabant.nl/",
     "description": ""
   },
   {
@@ -23,7 +32,7 @@
     "time": "15:30",
     "venue": "Cafe Oud Brabant",
     "city": "Oosterhout",
-    "url": "http://cafeoudbrabant.nl/",
+    "url": "https://cafeoudbrabant.nl/",
     "description": ""
   },
   {
@@ -59,7 +68,7 @@
       "time": "15:00",
       "venue": "Cafe Oud Brabant",
       "city": "Oosterhout",
-      "url": "http://cafeoudbrabant.nl/",
+      "url": "https://cafeoudbrabant.nl/",
       "description": ""
   },
   {
@@ -77,7 +86,7 @@
     "time": "20:30",
     "venue": "Cafe Oud Brabant",
     "city": "Oosterhout",
-    "url": "http://cafeoudbrabant.nl/",
+    "url": "https://cafeoudbrabant.nl/",
     "description": ""
   },
   {
@@ -95,7 +104,7 @@
     "time": "22:00",
     "venue": "Cafe Oud Brabant",
     "city": "Oosterhout",
-    "url": "http://cafeoudbrabant.nl/",
+    "url": "https://cafeoudbrabant.nl/",
     "description": ""
   },
   {

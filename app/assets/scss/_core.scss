@@ -1,6 +1,7 @@
+@use "variables" as *;
 html {
     box-sizing: border-box;
-    background: $color-black url(~/assets/images/background.jpg) no-repeat center center fixed;
+    background: $color-black url('~/assets/images/background.jpg') no-repeat center center fixed;
     background-size: cover;
         -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -29,7 +30,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: $color-black;
-    background: url(~/assets/images/background-cinematic.png) no-repeat center center fixed;
+    background: url('~/assets/images/background-cinematic.png') no-repeat center center fixed;
     background-size: cover;
     animation: animatedBackground 4s linear infinite;
 }

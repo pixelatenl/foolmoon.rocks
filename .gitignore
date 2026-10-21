@@ -7,7 +7,13 @@ npm-debug.log
 # Nuxt build
 .nuxt
 
-# Nuxt generate
+# Nuxt generate output
+.output
 dist
+
+# caches
+.eslintcache
+
+# local only
 downloads/
 .DS_Store

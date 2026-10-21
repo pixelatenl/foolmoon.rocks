@@ -1,0 +1,24 @@
+# Build output and dependencies
+node_modules
+.nuxt
+.output
+.data
+dist
+downloads
+package-lock.json
+
+# User-edited show data: never reformatted
+public/shows.json
+
+# Legacy files kept byte-for-byte from the Nuxt 2 source; left unformatted
+# on purpose so the migration diff stays minimal.
+app/assets/scss/_*.scss
+app/assets/scss/components/_*.scss
+app/assets/scss/layouts/_*.scss
+app/assets/scss/pages/_*.scss
+app/components/FoolMoonLogo.vue
+app/components/UpcomingShows.vue
+app/pages/bio.vue
+app/pages/contact.vue
+app/pages/media.vue
+public/site.webmanifest

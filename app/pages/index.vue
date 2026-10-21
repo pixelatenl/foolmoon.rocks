@@ -14,10 +14,10 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogUrl: "https://www.foolmoon.rocks/",
+  ogUrl: "https://foolmoon.rocks/",
 });
 useHead({
-  link: [{ rel: "canonical", href: "https://www.foolmoon.rocks/" }],
+  link: [{ rel: "canonical", href: "https://foolmoon.rocks/" }],
   script: [
     {
       type: "application/ld+json",
@@ -27,7 +27,7 @@ useHead({
         name: "Fool Moon",
         description,
         foundingDate: "2007",
-        url: "https://www.foolmoon.rocks/",
+        url: "https://foolmoon.rocks/",
         sameAs: [
           "https://open.spotify.com/album/6ZZmrCKO5JsFvRvhAiZmUc",
           "https://open.spotify.com/album/7wjoBTchm1M05tJZOaFSKB",

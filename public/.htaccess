@@ -4,11 +4,7 @@ RewriteBase /
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# SPA fallback: client-side routes (/live, /bio, ...) must not 404 on refresh
-RewriteRule ^index\.html$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.html [L]
+ErrorDocument 404 /404.html
 
 # Security headers
 <IfModule mod_headers.c>

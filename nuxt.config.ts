@@ -30,10 +30,10 @@ export default defineNuxtConfig({
           property: "og:description",
           content: "Official website of Fool Moon, a Dutch rock band",
         },
-        { property: "og:url", content: "https://www.foolmoon.rocks/" },
+        { property: "og:url", content: "https://foolmoon.rocks/" },
         {
           property: "og:image",
-          content: "https://www.foolmoon.rocks/og-image.jpg",
+          content: "https://foolmoon.rocks/og-image.jpg",
         },
         { name: "twitter:card", content: "summary_large_image" },
       ],

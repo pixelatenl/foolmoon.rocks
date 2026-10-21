@@ -39,9 +39,9 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogUrl: "https://www.foolmoon.rocks/contact",
+  ogUrl: "https://foolmoon.rocks/contact/",
 });
 useHead({
-  link: [{ rel: "canonical", href: "https://www.foolmoon.rocks/contact" }],
+  link: [{ rel: "canonical", href: "https://foolmoon.rocks/contact/" }],
 });
 </script>

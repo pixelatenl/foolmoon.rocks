@@ -49,10 +49,10 @@ useSeoMeta({
   description,
   ogTitle: "Live shows | Fool Moon",
   ogDescription: description,
-  ogUrl: "https://www.foolmoon.rocks/live",
+  ogUrl: "https://foolmoon.rocks/live/",
 });
 useHead({
-  link: [{ rel: "canonical", href: "https://www.foolmoon.rocks/live" }],
+  link: [{ rel: "canonical", href: "https://foolmoon.rocks/live/" }],
 });
 
 function formatDate(value) {

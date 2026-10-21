@@ -91,9 +91,9 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogUrl: "https://www.foolmoon.rocks/media",
+  ogUrl: "https://foolmoon.rocks/media/",
 });
 useHead({
-  link: [{ rel: "canonical", href: "https://www.foolmoon.rocks/media" }],
+  link: [{ rel: "canonical", href: "https://foolmoon.rocks/media/" }],
 });
 </script>

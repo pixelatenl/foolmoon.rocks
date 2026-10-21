@@ -28,3 +28,20 @@
     </div>
 </div>
 </template>
+
+<script setup>
+const title = "Contact | Fool Moon";
+const description =
+  "Contact Fool Moon for bookings and press: email, press kit and stage plan (technical rider) downloads.";
+
+useSeoMeta({
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogUrl: "https://www.foolmoon.rocks/contact",
+});
+useHead({
+  link: [{ rel: "canonical", href: "https://www.foolmoon.rocks/contact" }],
+});
+</script>

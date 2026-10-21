@@ -33,8 +33,27 @@
 </template>
 <script setup>
 // Fetched at runtime so gigs can be updated by uploading public/shows.json
-// over FTP, without a rebuild.
-const { data: shows } = await useFetch("/shows.json", { default: () => [] });
+// over FTP, without a rebuild. serialize: false keeps the fetched data out
+// of the prerendered payload, so the client refetches /shows.json on every
+// page load and visitors always see the data currently on the server.
+const { data: shows } = await useFetch("/shows.json", {
+  default: () => [],
+  serialize: false,
+});
+
+const description =
+  "Upcoming and previous live shows of Fool Moon, the Dutch rock band. Dates, venues and cities.";
+
+useSeoMeta({
+  title: "Live shows | Fool Moon",
+  description,
+  ogTitle: "Live shows | Fool Moon",
+  ogDescription: description,
+  ogUrl: "https://www.foolmoon.rocks/live",
+});
+useHead({
+  link: [{ rel: "canonical", href: "https://www.foolmoon.rocks/live" }],
+});
 
 function formatDate(value) {
   return new Date(value).toLocaleDateString(["en-US"], {

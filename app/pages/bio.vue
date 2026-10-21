@@ -19,3 +19,20 @@
       </div>
    </div>
 </template>
+
+<script setup>
+const title = "Bio | Fool Moon";
+const description =
+  "Fool Moon is a Dutch rock band formed in 2007, known for the album 'Little do we know' and their energetic live shows.";
+
+useSeoMeta({
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogUrl: "https://www.foolmoon.rocks/bio",
+});
+useHead({
+  link: [{ rel: "canonical", href: "https://www.foolmoon.rocks/bio" }],
+});
+</script>

@@ -80,3 +80,20 @@
       </div>
    </div>
 </template>
+
+<script setup>
+const title = "Music & video | Fool Moon";
+const description =
+  "Music and video by Fool Moon: singles and the album 'Little do we know' on Spotify, Apple Music and Deezer, plus live videos.";
+
+useSeoMeta({
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogUrl: "https://www.foolmoon.rocks/media",
+});
+useHead({
+  link: [{ rel: "canonical", href: "https://www.foolmoon.rocks/media" }],
+});
+</script>

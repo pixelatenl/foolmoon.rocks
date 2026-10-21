@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
-  // Static hosting: SPA rendered client-side, output via `nuxt generate`
-  ssr: false,
+  // Static hosting: pages are prerendered to HTML for crawlers,
+  // output via `nuxt generate`
+  ssr: true,
 
   compatibilityDate: "2026-10-21",
 
@@ -11,15 +12,30 @@ export default defineNuxtConfig({
   // Global page headers
   app: {
     head: {
+      htmlAttrs: { lang: "en" },
       title: "www.foolmoon.rocks",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
         {
           name: "description",
           content: "Official website of Fool Moon, a Dutch rock band",
         },
+        { property: "og:type", content: "website" },
+        {
+          property: "og:title",
+          content: "Fool Moon | Dutch rock band",
+        },
+        {
+          property: "og:description",
+          content: "Official website of Fool Moon, a Dutch rock band",
+        },
+        { property: "og:url", content: "https://www.foolmoon.rocks/" },
+        {
+          property: "og:image",
+          content: "https://www.foolmoon.rocks/og-image.jpg",
+        },
+        { name: "twitter:card", content: "summary_large_image" },
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },

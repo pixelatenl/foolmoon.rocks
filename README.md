@@ -33,11 +33,13 @@ $ npm run lint:fix
 - `public/` – files served at the site root (favicons, `site.webmanifest`, `browserconfig.xml`, `.htaccess`, `shows.json`)
 - `app/assets/scss/` – global styles, compiled from `main.scss` (Sass module system, `@use`)
 
-## Editing the show list
+## Updating the show list
 
-The gigs on the Live page live in `public/shows.json`. Add or edit a show by
-editing that file (plain JSON, no CMS), then run `npm run generate` and upload
-`.output/public/`.
+The gigs on the Live page live in `public/shows.json` and are fetched from the
+server at runtime (not baked into the build). To update the shows: edit that
+file (plain JSON, no CMS, no rebuild) and upload that single file over FTP to
+the site root. The `.htaccess` already marks JSON files to revalidate on every
+request, so visitors see the new data on their next page load.
 
 ## Deployment
 

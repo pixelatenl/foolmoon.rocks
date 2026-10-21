@@ -32,7 +32,9 @@
   </div>
 </template>
 <script setup>
-import shows from "~~/public/shows.json";
+// Fetched at runtime so gigs can be updated by uploading public/shows.json
+// over FTP, without a rebuild.
+const { data: shows } = await useFetch("/shows.json", { default: () => [] });
 
 function formatDate(value) {
   return new Date(value).toLocaleDateString(["en-US"], {

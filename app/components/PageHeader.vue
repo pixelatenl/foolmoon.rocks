@@ -1,6 +1,6 @@
 <template>
   <header class="page-header">
-    <h1 class="page-header__title">Fool Moon</h1>
+    <p class="page-header__title">Fool Moon</p>
     <nav class="navigation" role="navigation">
       <ul class="navigation__list">
         <li

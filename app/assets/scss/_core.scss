@@ -70,3 +70,9 @@ p {
         opacity: 1;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .cinematic {
+        animation: none;
+    }
+}

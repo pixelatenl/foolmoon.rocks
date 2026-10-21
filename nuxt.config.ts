@@ -59,6 +59,15 @@ export default defineNuxtConfig({
         },
         { rel: "manifest", href: "/site.webmanifest" },
         {
+          rel: "preconnect",
+          href: "https://fonts.googleapis.com",
+        },
+        {
+          rel: "preconnect",
+          href: "https://fonts.gstatic.com",
+          crossorigin: "",
+        },
+        {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,700",
         },

@@ -6,14 +6,6 @@
                <h1 class="block__title">Music</h1>
             </header>
             <div class="block__content content">
-               <!-- <p>Download our music</p>
-                <ul>
-                    <li><a href="https://www.foolmoon.rocks/downloads/Fool Moon - Lady Under Water - Single - 256kbps.mp3.zip">Single - Lady Underwater (MP3)</a></li>
-                    <li><a href="https://www.foolmoon.rocks/downloads/Fool Moon - Honey I Know - Single -  256kbps.mp3.zip">Single - Honey I Know (MP3)</a></li>
-                    <li><a href="https://www.foolmoon.rocks/downloads/FoolMoonLittleDoWeKnow.zip">Album - Little Do We Know (MP3)</a></li>
-                    <li><a href="httsp://www.foolmoon.rocks/downloads/FoolMoonLittleDoWeKnow-wav.zip">Album - Little Do We Know (WAV)</a></li>
-                </ul>
-               <hr> -->
                <p><a href="https://open.spotify.com/album/6ZZmrCKO5JsFvRvhAiZmUc"><img src="~/assets/images/covers/cd-cover-ladyunderwater-hd.jpg" alt="Lady Underwater by Fool Moon"/></a></p>
                <p>Available on</p>
                   <ul class="store-list">
@@ -37,7 +29,6 @@
                <h1 class="block__title">Video</h1>
             </header>
             <div class="block__content content">
-               <!-- <p>Currently not available, please update endpoint</p> -->
                <p>"Honey I Know" Fool Moon at Parkfeest 2020</p>
                <iframe loading="lazy" width="100%" height="315" src="https://www.youtube.com/embed/_seiDx9z-DE?si=Ilm7WYD7rP_cwxkl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                <hr>
